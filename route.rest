@@ -1,0 +1,17 @@
+POST http://localhost:8000/hotel
+Content-Type: application/json
+
+{
+    "name": "Abs monk Hotel",
+    "city": "ife",
+    "price_range": "7000-20000",
+    "address": "Z277, OAU campus",
+    "contact": "2348163479544"
+}
+
+###
+GET http://localhost:8000/hotel/ife
+
+
+###
+GET https://ill-fly-pea-coat.cyclic.app/hotel/ife
